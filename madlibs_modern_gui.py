@@ -81,7 +81,7 @@ story_frame = tk.Frame(
     bg = "white",
     highlightthickness = 2,
     highlightbackground = "#bda7ff",
-    padyx = 20,
+    padx = 20,
     pady = 20
 )
 story_frame.pack(pady =20)
@@ -111,7 +111,7 @@ generate_button = tk.Button(
     fg = "white",
     activebackground = "#5a189a",
     activeforeground = "white",
-    padyx = 15,
+    padx = 15,
     pady = 8,
     relief = "raised",
     bd = 3,
@@ -126,7 +126,7 @@ quit_button = tk.Button(
     bg = "#ffccd5",
     fg = "black",
     activebackground = "#ffb3c1",
-    padyx = 12,
+    padx = 12,
     pady = 6,
     command = window.destroy
 )
